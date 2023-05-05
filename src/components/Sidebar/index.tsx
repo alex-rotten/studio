@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from 'next/image';
 
+import { NavBar } from "../NavBar/index.tsx";
+
 import "./Sidebar.css";
 
 export const Sidebar = () => {
@@ -11,40 +13,7 @@ export const Sidebar = () => {
             <Link className="header__logo" href="/">
             .studio
             </Link>
-              <nav className="menu">
-                  <ul className="list">
-                      <li className="list__item">
-                            <Link className="list__link" href="/overview">
-                                <Image className="list__image" src="/overview.svg" alt="overview-icon" width={25} height={25}/>
-                                Overview
-                            </Link>
-                      </li>
-                      <li className="list__item">
-                            <Link className="list__link" href="/stats">
-                                <Image className="list__image" src="/stats.svg" alt="stats-icon" width={25} height={25}/>
-                                Stats
-                            </Link>
-                      </li>
-                      <li className="list__item">
-                            <Link className="list__link" href="/projects">
-                                <Image className="list__image" src="/projects.svg" alt="projects-icon" width={25} height={25}/>
-                                Projects
-                            </Link>
-                      </li>
-                      <li className="list__item">
-                            <Link className="list__link" href="/chat">
-                                <Image className="list__image" src="/chat.svg" alt="chat-icon" width={25} height={25}/>
-                                Chat
-                            </Link>
-                      </li>
-                      <li className="list__item">
-                            <Link className="list__link" href="/calendar">
-                                <Image className="list__image" src="/calendar.svg" alt="calendar-icon" width={25} height={25}/>
-                                Calendar
-                            </Link>
-                      </li>
-                  </ul>
-              </nav>
+              <NavBar/>
               <div className="bottom__menu">
                 <ul className="list">
                     <li className="list__item">
