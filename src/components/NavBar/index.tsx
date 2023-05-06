@@ -3,7 +3,7 @@ import { List } from "../List/index.tsx";
 
 import "./NavBar.css";
 
-interface IListProps {
+ interface IListProps {
   id: number;
   href: string;
   src: string;
@@ -40,7 +40,7 @@ const listProps: Array<IListProps> = [
     src: "/calendar.svg",
     alt: "calendar-icon",
     text: "Calendar",
-  },
+  }
 ];
 
 export const NavBar = (): JSX.Element => {

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { NavBar } from "../NavBar/index.tsx";
-
+import {BottomMenu} from "../BottomMenu/index.tsx";
 
 import "./Sidebar.css";
 
@@ -13,35 +13,8 @@ export const Sidebar = () => {
           <Link className="header__logo" href="/">
             .studio
           </Link>
-          <NavBar />
-          <div className="bottom__menu">
-            <ul className="list">
-              <li className="list__item">
-                <Link className="list__link" href="/settings">
-                  <Image
-                    className="list__image"
-                    src="/settings.svg"
-                    alt="setting-icon"
-                    width={25}
-                    height={25}
-                  />
-                  Settings
-                </Link>
-              </li>
-              <li className="list__item">
-                <Link className="list__link" href="/log_out">
-                  <Image
-                    className="list__image"
-                    src="/log_out.svg"
-                    alt="log_out-icon"
-                    width={25}
-                    height={25}
-                  />
-                  Log out
-                </Link>
-              </li>
-            </ul>
-          </div>
+          <NavBar/>
+          <BottomMenu/>
         </header>
       </div>
     </section>
