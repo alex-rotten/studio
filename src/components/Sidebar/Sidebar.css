@@ -1,3 +1,7 @@
+.sidebar{
+  width:35%;
+}
+
 .sidebar__container {
   display: flex;
   align-items: center;

@@ -1,11 +1,16 @@
 import { Sidebar } from "@/components";
+import { ToolBar } from "@/components/ToolBar";
 
 import "./page.css";
+import { Fragment } from "react";
 
 export default function Home() {
   return (
-   <main className="main">
-        <Sidebar/>
-   </main>
+    <div className="page">
+      <Sidebar />
+      <main className="main">
+        <ToolBar />
+      </main>
+    </div>
   );
 }

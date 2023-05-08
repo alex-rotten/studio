@@ -1,0 +1,14 @@
+.searchBar {
+    display: flex;
+    gap: 22px;
+    cursor: pointer;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: var(--grey_light);
+}

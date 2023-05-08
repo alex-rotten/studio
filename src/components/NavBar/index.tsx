@@ -3,7 +3,7 @@ import { List } from "../List/index.tsx";
 
 import "./NavBar.css";
 
- interface IListProps {
+interface IListProps {
   id: number;
   href: string;
   src: string;
@@ -33,7 +33,13 @@ const listProps: Array<IListProps> = [
     alt: "projects-icon",
     text: "Projects",
   },
-  { id: 3, href: "/chat", src: "/chat.svg", alt: "chat-icon", text: "Chat" },
+  {
+    id: 3,
+    href: "/chat",
+    src: "/chat.svg",
+    alt: "chat-icon",
+    text: "Chat"
+  },
   {
     id: 4,
     href: "/calendar",
