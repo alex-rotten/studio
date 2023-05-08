@@ -35,20 +35,13 @@ p {
 html,
 body {
   line-height: 24px;
-  font-family: "Inter", sans-serif;
   color: #000000;
   font-size: 18px;
 }
 
-[class*="__container"] {
-  max-width: 1256px;
-  margin: 0 auto;
-  padding: 0px 20px;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  overflow: hidden;
+:root{
+  --white_light: #e0e8e7;
+  --black_: #000000;
+  --grey_light: #787b85;
+  --green_bleak: #6AA7B3;
 }

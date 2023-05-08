@@ -1,0 +1,23 @@
+.menu {
+    padding-top: 90px;
+    padding-bottom: 455px;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  .list__link {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--grey_light);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .list__link:hover {
+    filter: brightness(0%);
+  }

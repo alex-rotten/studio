@@ -1,0 +1,20 @@
+.userCorner {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.userBar {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.user__link{
+    transition: all 0.3s ease-in-out;
+}
+
+.user__link:hover{
+    filter:brightness(50%);
+    
+}

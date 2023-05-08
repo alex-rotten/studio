@@ -1,0 +1,21 @@
+.sidebar{
+  width:35%;
+}
+
+.sidebar__container {
+  display: flex;
+  align-items: center;
+  max-width: 409px;
+  padding-left: 41px;
+  padding-top: 48px;
+  padding-bottom: 75px;
+  min-height: 100%;
+  border-right: 1px solid var(--white_light);
+}
+
+.header__logo {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  color: var(--black_);
+}
